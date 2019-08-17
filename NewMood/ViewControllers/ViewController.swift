@@ -23,4 +23,47 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = Theme.primaryBlue
     }
+
+    func save(thought text: String) {
+        guard
+            let context = managedContext,
+            let entity = NSEntityDescription.entity(
+                forEntityName: "Thought",
+                in: context)
+            else { return }
+
+        let thought = NSManagedObject(
+            entity: entity,
+            insertInto: context
+        )
+
+        thought.setValue(
+            text,
+            forKey: "text"
+        )
+
+        do {
+            try managedContext?.save()
+        } catch let error as NSError {
+            print("Could not save. \(error), \(error.userInfo)")
+        }
+    }
+
+    func fetchThoughts() -> [Thought]? {
+        let fetchRequest = NSFetchRequest<NSManagedObject>(
+            entityName: "Thought"
+        )
+
+        do {
+            let result = try managedContext?.fetch(fetchRequest)
+            if let thoughts = result as? [Thought] {
+                return thoughts
+            }
+        } catch let error as NSError {
+            print("Could not fetch. \(error), \(error.userInfo)")
+            return nil
+        }
+        return nil
+    }
 }
+

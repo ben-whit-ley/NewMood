@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6DBA5D8984BB00B5B76057E0 /* Pods_NewMood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A0313865BB064D96F46B46 /* Pods_NewMood.framework */; };
 		79235D63E0295D90BC44CBA8 /* Pods_NewMoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B60D934B339EFE350B64F9 /* Pods_NewMoodTests.framework */; };
+		D679EE122308506300210D4C /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679EE112308506300210D4C /* TextView.swift */; };
 		D69BCF8022FA342D0086C913 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69BCF7F22FA342D0086C913 /* AppDelegate.swift */; };
 		D69BCF8222FA342D0086C913 /* ThoughtInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69BCF8122FA342D0086C913 /* ThoughtInputViewController.swift */; };
 		D69BCF8522FA342D0086C913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69BCF8322FA342D0086C913 /* Main.storyboard */; };
@@ -19,6 +20,13 @@
 		D69BCFA322FA3A250086C913 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69BCFA222FA3A250086C913 /* NavigationController.swift */; };
 		D69BCFA522FA3A420086C913 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69BCFA422FA3A420086C913 /* ViewController.swift */; };
 		D69BCFA722FA3D5B0086C913 /* UIColor.Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69BCFA622FA3D5B0086C913 /* UIColor.Ext.swift */; };
+		D6EA92EF230057B300BCF352 /* ThoughtListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA92EE230057B300BCF352 /* ThoughtListViewController.swift */; };
+		D6EA92F123005A6B00BCF352 /* EnumProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA92F023005A6B00BCF352 /* EnumProtocols.swift */; };
+		D6EA92F323005BA300BCF352 /* ThoughtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA92F223005BA300BCF352 /* ThoughtTableViewCell.swift */; };
+		D6EA92F523005BCF00BCF352 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA92F423005BCF00BCF352 /* Strings.swift */; };
+		D6EA92F7230062CA00BCF352 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA92F6230062CA00BCF352 /* TableView.swift */; };
+		D6EA92F9230062E300BCF352 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA92F8230062E300BCF352 /* TableViewCell.swift */; };
+		D6EA92FC2300638100BCF352 /* ThoughtListVC.Exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA92FB2300638100BCF352 /* ThoughtListVC.Exts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,7 @@
 		01A0313865BB064D96F46B46 /* Pods_NewMood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewMood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC432ACE17ABAFBB78D420F /* Pods-NewMoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewMoodTests.debug.xcconfig"; path = "Target Support Files/Pods-NewMoodTests/Pods-NewMoodTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0B60D934B339EFE350B64F9 /* Pods_NewMoodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewMoodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D679EE112308506300210D4C /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		D69BCF7C22FA342D0086C913 /* NewMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69BCF7F22FA342D0086C913 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D69BCF8122FA342D0086C913 /* ThoughtInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtInputViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		D69BCFA222FA3A250086C913 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		D69BCFA422FA3A420086C913 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D69BCFA622FA3D5B0086C913 /* UIColor.Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.Ext.swift; sourceTree = "<group>"; };
+		D6EA92EE230057B300BCF352 /* ThoughtListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtListViewController.swift; sourceTree = "<group>"; };
+		D6EA92F023005A6B00BCF352 /* EnumProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumProtocols.swift; sourceTree = "<group>"; };
+		D6EA92F223005BA300BCF352 /* ThoughtTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtTableViewCell.swift; sourceTree = "<group>"; };
+		D6EA92F423005BCF00BCF352 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		D6EA92F6230062CA00BCF352 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		D6EA92F8230062E300BCF352 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D6EA92FB2300638100BCF352 /* ThoughtListVC.Exts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtListVC.Exts.swift; sourceTree = "<group>"; };
 		D82D145D2460C777AD2A110E /* Pods-NewMoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewMoodTests.release.xcconfig"; path = "Target Support Files/Pods-NewMoodTests/Pods-NewMoodTests.release.xcconfig"; sourceTree = "<group>"; };
 		EA0B2581148A3C0CB24BDE3E /* Pods-NewMood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewMood.release.xcconfig"; path = "Target Support Files/Pods-NewMood/Pods-NewMood.release.xcconfig"; sourceTree = "<group>"; };
 		F8C0BCBD66B388CCA0100C9A /* Pods-NewMood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewMood.debug.xcconfig"; path = "Target Support Files/Pods-NewMood/Pods-NewMood.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,9 +133,13 @@
 		D69BCF7E22FA342D0086C913 /* NewMood */ = {
 			isa = PBXGroup;
 			children = (
+				D6EA92FA230062FF00BCF352 /* View_Elements */,
 				D6AC412522FA55F400B47245 /* ViewControllers */,
 				D69BCF7F22FA342D0086C913 /* AppDelegate.swift */,
-				D69BCFA622FA3D5B0086C913 /* UIColor.Ext.swift */,
+				D6EA92F8230062E300BCF352 /* TableViewCell.swift */,
+				D6EA92F223005BA300BCF352 /* ThoughtTableViewCell.swift */,
+				D6EA92F423005BCF00BCF352 /* Strings.swift */,
+				D6EA92F023005A6B00BCF352 /* EnumProtocols.swift */,
 				D69BCF8322FA342D0086C913 /* Main.storyboard */,
 				D69BCF8922FA342E0086C913 /* Assets.xcassets */,
 				D69BCF8B22FA342E0086C913 /* LaunchScreen.storyboard */,
@@ -144,8 +164,20 @@
 				D69BCFA422FA3A420086C913 /* ViewController.swift */,
 				D69BCFA222FA3A250086C913 /* NavigationController.swift */,
 				D69BCF8122FA342D0086C913 /* ThoughtInputViewController.swift */,
+				D6EA92EE230057B300BCF352 /* ThoughtListViewController.swift */,
+				D6EA92FB2300638100BCF352 /* ThoughtListVC.Exts.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D6EA92FA230062FF00BCF352 /* View_Elements */ = {
+			isa = PBXGroup;
+			children = (
+				D69BCFA622FA3D5B0086C913 /* UIColor.Ext.swift */,
+				D6EA92F6230062CA00BCF352 /* TableView.swift */,
+				D679EE112308506300210D4C /* TextView.swift */,
+			);
+			path = View_Elements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,11 +348,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6EA92F123005A6B00BCF352 /* EnumProtocols.swift in Sources */,
 				D69BCFA722FA3D5B0086C913 /* UIColor.Ext.swift in Sources */,
+				D6EA92F523005BCF00BCF352 /* Strings.swift in Sources */,
+				D679EE122308506300210D4C /* TextView.swift in Sources */,
+				D6EA92F323005BA300BCF352 /* ThoughtTableViewCell.swift in Sources */,
 				D69BCFA522FA3A420086C913 /* ViewController.swift in Sources */,
+				D6EA92FC2300638100BCF352 /* ThoughtListVC.Exts.swift in Sources */,
 				D69BCF8222FA342D0086C913 /* ThoughtInputViewController.swift in Sources */,
+				D6EA92EF230057B300BCF352 /* ThoughtListViewController.swift in Sources */,
 				D69BCFA322FA3A250086C913 /* NavigationController.swift in Sources */,
 				D69BCF8822FA342D0086C913 /* NewMood.xcdatamodeld in Sources */,
+				D6EA92F9230062E300BCF352 /* TableViewCell.swift in Sources */,
+				D6EA92F7230062CA00BCF352 /* TableView.swift in Sources */,
 				D69BCF8022FA342D0086C913 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
